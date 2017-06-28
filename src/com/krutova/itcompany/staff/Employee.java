@@ -15,6 +15,9 @@ public class Employee {
 		this.hiredate = hiredate;
 		this.salary = salary;
 	}
+	
+	public Employee() {
+	}
 
 	public String getFirstName() {
 		return firstName;
