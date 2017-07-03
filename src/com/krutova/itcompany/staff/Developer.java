@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Developer extends Employee{
 
+	
 	private String contractType; //full-time or part-time. maybe I should use enum.....(ask Igor)
 	private String position; //JavaDeveloper, DBDeveloper, ....
 	
