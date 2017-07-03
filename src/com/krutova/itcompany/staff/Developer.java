@@ -7,8 +7,8 @@ public class Developer extends Employee{
 	private String contractType; //full-time or part-time. maybe I should use enum.....(ask Igor)
 	private String position; //JavaDeveloper, DBDeveloper, ....
 	
-	public Developer(String firstName,String lastName,Date hiredate,double salary,String contractType, String position) {
-		super(firstName,lastName,hiredate,salary);
+	public Developer(int id, String firstName,String lastName,Date hiredate,double salary,String contractType, String position) {
+		super(id, firstName,lastName,hiredate,salary);
 		this.contractType = contractType;
 		this.position = position;
 	}

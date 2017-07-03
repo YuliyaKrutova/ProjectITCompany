@@ -4,12 +4,14 @@ import java.util.Date;
 
 public class Employee {
 
+	private int id;
 	private String firstName;
 	private String lastName;
 	private Date hiredate;
 	private double salary;
 	
-	public Employee(String firstName,String lastName,Date hiredate,double salary) {
+	public Employee(int id, String firstName,String lastName,Date hiredate,double salary) {
+		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.hiredate = hiredate;
@@ -17,6 +19,11 @@ public class Employee {
 	}
 	
 	public Employee() {
+	}
+
+	
+	public int getId() {
+		return id;
 	}
 
 	public String getFirstName() {

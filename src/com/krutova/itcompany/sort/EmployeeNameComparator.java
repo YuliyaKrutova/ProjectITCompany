@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import com.krutova.itcompany.staff.Employee;
 
-public class EmployeeSortName implements Comparator<Employee>{
+public class EmployeeNameComparator implements Comparator<Employee>{
 
 	@Override
 	public int compare(Employee employee1, Employee employee2) {
