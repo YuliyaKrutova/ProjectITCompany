@@ -1,20 +1,20 @@
 package com.krutova.itcompany.staff;
 
-import java.util.Date;
+import java.util.Calendar;
 
 public class Employee {
 
 	private int id;
-	private String firstName;
+	private String firstName; //Русский коммент
 	private String lastName;
-	private Date hiredate;
+	private Calendar hiredate;
 	private double salary;
 	
-	public Employee(int id, String firstName,String lastName,Date hiredate,double salary) {
+	public Employee(int id, String firstName,String lastName,Calendar d,double salary) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.hiredate = hiredate;
+		this.hiredate = d;
 		this.salary = salary;
 	}
 	
@@ -34,7 +34,7 @@ public class Employee {
 		return lastName;
 	}
 
-	public Date getHiredate() {
+	public Calendar getHiredate() {
 		return hiredate;
 	}
 
