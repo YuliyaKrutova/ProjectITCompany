@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class Employee {
 
 	private int id;
-	private String firstName; //Русский коммент
+	private String firstName; //Р СѓСЃСЃРєРёР№ РєРѕРјРјРјРµРЅС‚
 	private String lastName;
 	private Calendar hiredate;
 	private double salary;
