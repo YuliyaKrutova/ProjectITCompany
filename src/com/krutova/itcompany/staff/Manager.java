@@ -1,23 +1,28 @@
 package com.krutova.itcompany.staff;
 
 import java.util.ArrayList;
-import java.util.Date;
+
+import com.krutova.itcompany.action.StaffFinder;
+import com.krutova.itcompany.type.ContractType;
+import com.krutova.itcompany.type.ManagerType;
 
 public class Manager extends Employee {
 
-	private int numOfSubord;
-	private double bonus;
-	private ArrayList<Employee> listSubId;
+	private ManagerType managerType;
 	
-	public Manager(int id, String firstName,String lastName,Date hiredate,double salary, int numOfSubord, double bonus, ArrayList<Employee> listSubId) {
-		super(id, firstName,lastName,hiredate,salary);
-		this.numOfSubord = numOfSubord;
-		this.bonus = bonus;
-		this.listSubId = listSubId;
+	public Manager(String firstName,String lastName,double salary, ContractType contractType, ManagerType managerType) {
+		super(firstName,lastName,salary,contractType);
+		this.managerType = managerType;
 	}
 	
-	public double getSalary(){
-		return super.getSalary()+bonus;
+	public ArrayList<Developer> listOfSubordinates(ArrayList<Developer> devList) {
+		return StaffFinder.listSubord(devList,this.getId());
 	}
+
+	public ManagerType getManagerType() {
+		return managerType;
+	}
+
+
 
 }

@@ -1,29 +1,26 @@
 package com.krutova.itcompany.staff;
 
-import java.util.Date;
+import com.krutova.itcompany.type.ContractType;
+import com.krutova.itcompany.type.DevTitle;
 
 public class Developer extends Employee{
 
+	private DevTitle devTitle;
+	private int managerId;
 	
-	private String contractType; //full-time or part-time. maybe I should use enum.....(ask Igor)
-	private String position; //JavaDeveloper, DBDeveloper, ....
-	
-	public Developer(int id, String firstName,String lastName,Date hiredate,double salary,String contractType, String position) {
-		super(id, firstName,lastName,hiredate,salary);
-		this.contractType = contractType;
-		this.position = position;
+	public Developer(String firstName,String lastName,double salary,ContractType contractType, DevTitle devTitle, int managerId) {
+		super(firstName,lastName,salary,contractType);
+		this.devTitle = devTitle;
+		this.managerId = managerId;
 	}
-	
-	public double costPerHour (){
-		double cost;
-		if ("full-time".equals(contractType)){
-			cost = super.getSalary()/160; //20days * 8hours
-		}
-		else {
-			cost = super.getSalary()/80;
-		}
-		return cost;
-	}
-	
 
+	public DevTitle getDevTitle() {
+		return devTitle;
+	}
+
+	public int getManagerId() {
+		return managerId;
+	}
+	
+	
 }
