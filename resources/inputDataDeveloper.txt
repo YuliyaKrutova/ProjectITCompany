@@ -1,0 +1,5 @@
+Егор,Антонов,100,FULLTIME,LEADSE,1
+Василий,Иванов,50,PARTTIME,SENIORSE,2
+Борис,Васечкин,60,FULLTIME,JUNIORSE,1
+Василий,Васечкин,190,FULLTIME,LEADSE,1
+Соня,Сонькина,50,FULLTIME,SENIORSE,1

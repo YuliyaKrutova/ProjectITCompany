@@ -1,26 +1,23 @@
 package com.krutova.itcompany.staff;
 
-import java.util.Calendar;
+import com.krutova.itcompany.action.IdGenerator;
+import com.krutova.itcompany.type.ContractType;
 
 public class Employee {
 
 	private int id;
-	private String firstName; //Русский комммент
+	private String firstName;
 	private String lastName;
-	private Calendar hiredate;
 	private double salary;
+	private ContractType contractType;
 	
-	public Employee(int id, String firstName,String lastName,Calendar d,double salary) {
-		this.id = id;
+	public Employee(String firstName,String lastName,double salary,ContractType contractType) {
+		this.id = IdGenerator.idInc();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.hiredate = d;
 		this.salary = salary;
+		this.contractType = contractType;
 	}
-	
-	public Employee() {
-	}
-
 	
 	public int getId() {
 		return id;
@@ -34,11 +31,16 @@ public class Employee {
 		return lastName;
 	}
 
-	public Calendar getHiredate() {
-		return hiredate;
-	}
-
 	public double getSalary() {
 		return salary;
 	}
+	
+	public ContractType getContractType() {
+		return contractType;
+	}
+
+	public String formatString(){
+		return String.format("%6d %-12s %-12s %10.2f",id,lastName,firstName,salary);
+	}
+	
 }
