@@ -1,2 +1,9 @@
 eclipse.preferences.version=1
+encoding//resources/inputDataDeveloper.txt=UTF-8
+encoding//resources/inputDataManager.txt=UTF-8
+encoding//src/com/krutova/itcompany/action/TeamAction.java=UTF-8
+encoding//src/com/krutova/itcompany/main/TeamMain.java=UTF-8
 encoding//src/com/krutova/itcompany/staff/Employee.java=UTF-8
+encoding//src/com/krutova/itcompany/team/Team.java=UTF-8
+encoding/<project>=UTF-8
+encoding/src=UTF-8
