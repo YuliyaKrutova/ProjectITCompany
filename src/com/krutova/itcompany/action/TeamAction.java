@@ -22,7 +22,7 @@ public class TeamAction {
 	public static void filteredTeam(ArrayList<Employee> teamList, int minSalary, int maxSalary) {
 		Predicate<Employee> predicate = (e) -> e.getSalary() >= minSalary && e.getSalary() <=maxSalary;
 		LOGGER.info("--------------------------------------------");
-		LOGGER.info("Фильтр и сортировка(убыв.) по окладу (>"+minSalary+" и <"+maxSalary+")");
+		LOGGER.info("Р¤РёР»СЊС‚СЂ Рё СЃРѕСЂС‚РёСЂРѕРІРєР°(СѓР±С‹РІ.) РїРѕ РѕРєР»Р°РґСѓ (>"+minSalary+" Рё <"+maxSalary+")");
 		
 		teamList.stream()
 		.filter(predicate)
@@ -32,14 +32,14 @@ public class TeamAction {
 	
 	public static void sortedTeamSalary(ArrayList<Employee> teamList) {
 		LOGGER.info("--------------------------------------------------");
-		LOGGER.info("Сортировка по Salary");
+		LOGGER.info("РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ Salary");
 		
 		teamList.stream().sorted(compSalary ).forEach(consumer);
 	}
 	
 	public static void sortedTeamFullName(ArrayList<Employee> teamList) {
 		LOGGER.info("--------------------------------------------------");
-		LOGGER.info("Сортировка по Фамилии и Имени");
+		LOGGER.info("РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ Р¤Р°РјРёР»РёРё Рё РРјРµРЅРё");
 		
 		teamList.stream().sorted(compLastName.thenComparing(compFirstName)).forEach(consumer);
 	}
