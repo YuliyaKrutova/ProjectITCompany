@@ -15,8 +15,9 @@ public class EmployeeFactory {
 		return new Developer(str[1], str[2], Integer.parseInt(str[3]), ContractType.valueOf(str[4]), DevTitle.valueOf(str[5]), Integer.parseInt(str[6]));
 		} else if (DataSourceType.MANAGER.name().equals(str[0])){
 			return new  Manager(str[1], str[2], Integer.parseInt(str[3]), ContractType.valueOf(str[4]),ManagerType.valueOf(str[5]));
-		}
+		} else{
 			throw new CompanyException();
+		}
 	}
 
 }
