@@ -11,7 +11,7 @@ public class CountEmployeeTest {
 	@Test
 	public void test() {
 		Team team = new Team();
-		FileParser.parseFileToTeam(team);
+		FileParser.parseFileToTeam(team,"resources\\inputDataDeveloper.txt");
 		
 		Assert.assertEquals(5, team.getCountEmployee());
 	}

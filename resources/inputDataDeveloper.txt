@@ -1,5 +1,6 @@
-Егор,Антонов,100,FULLTIME,LEADSE,1
-Василий,Иванов,50,PARTTIME,SENIORSE,2
-Борис,Васечкин,60,FULLTIME,JUNIORSE,1
-Василий,Васечкин,190,FULLTIME,LEADSE,1
-Соня,Сонькина,50,FULLTIME,SENIORSE,1
+DEVELOPER;Р•РіРѕСЂ;РђРЅС‚РѕРЅРѕРІ;100;FULLTIME;LEADSE;1
+DEVELOPER;Р’Р°СЃРёР»РёР№;РРІР°РЅРѕРІ;50;PARTTIME;SENIORSE;2
+DEVELOPER;Р‘РѕСЂРёСЃ;Р’Р°СЃРµС‡РєРёРЅ;60;FULLTIME;JUNIORSE;1
+ERROREMPLOYEE;Р’Р°СЃРёР»РёР№;РРІР°РЅРѕРІ;50;PARTTIME;SENIORSE;2
+DEVELOPER;Р’Р°СЃРёР»РёР№;Р’Р°СЃРµС‡РєРёРЅ;190;FULLTIME;LEADSE;1
+DEVELOPER;РЎРѕРЅСЏ;РЎРѕРЅСЊРєРёРЅР°;50;FULLTIME;SENIORSE;1

@@ -6,25 +6,21 @@ import com.krutova.itcompany.action.TeamAction;
 import com.krutova.itcompany.filemanager.FileParser;
 import com.krutova.itcompany.staff.Developer;
 import com.krutova.itcompany.staff.Employee;
-import com.krutova.itcompany.staff.Manager;
-import com.krutova.itcompany.type.ContractType;
-import com.krutova.itcompany.type.ManagerType;
 import com.krutova.itcompany.team.Team;
 
 public class TeamMain {
 
 	public static final int MIN_SALARY = 50;
 	public static final int MAX_SALARY = 150;
+	private static final String DATA_DEVELOPER = "resources\\inputDataDeveloper.txt";
+	private static final String DATA_MANAGER = "resources\\inputDataManager.txt";
 	
 	public static void main(String[] args)  {
 		
 		Team team = new Team(); 
-		
-		Manager manager = new Manager("Менеджер", "Хороший", 1000, ContractType.FULLTIME,ManagerType.PM);
 
-		team.addNewEmployee(manager);
-
-		FileParser.parseFileToTeam(team);
+		FileParser.parseFileToTeam(team, DATA_DEVELOPER);
+		FileParser.parseFileToTeam(team, DATA_MANAGER);
 
 		ArrayList<Employee> teamList  = team.getTeam();
 		
@@ -34,13 +30,6 @@ public class TeamMain {
 				devList.add((Developer) emp);
 			}
 		}
-		
-		ArrayList<Developer> subordList  =manager.listOfSubordinates(devList);
-		
-		System.out.println("-------------------");
-		System.out.println("Список субординатов менеджера '"+manager.getLastName()+" "+manager.getFirstName()+"'");
-		subordList.stream().forEach((e)->System.out.println(e.formatString()));
-		System.out.println("-------------------");
 		
 		team.teamInfo();
 		

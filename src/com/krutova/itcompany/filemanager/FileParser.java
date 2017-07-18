@@ -2,29 +2,37 @@ package com.krutova.itcompany.filemanager;
 
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.krutova.itcompany.exception.CompanyException;
-import com.krutova.itcompany.staff.Developer;
+import com.krutova.itcompany.staff.EmployeeFactory;
 import com.krutova.itcompany.team.Team;
-import com.krutova.itcompany.type.ContractType;
-import com.krutova.itcompany.type.DevTitle;
 
 public class FileParser {
-private static final String DATA_DEVELOPER = "resources\\inputDataDeveloper.txt";
-//private static final String DATA_MANAGER = "resources\\inputDataManager.txt";
-	
-	public static void parseFileToTeam(Team team) {
+
+
+	private static final Logger LOGGER  = LogManager.getLogger();
+	public static void parseFileToTeam(Team team, String filePath) {
 		
-		
+
 		ArrayList<String> lines = null;
 		try {
-			lines = FileManager.readLineFromFile(DATA_DEVELOPER);
+			lines = FileManager.readLineFromFile(filePath);
 		} catch (CompanyException e) {
 			e.printStackTrace();
-		}		
+		}
+		String[] str = null;
 		for (String rowLines : lines){
-			String[] str = rowLines.split(",");
-			team.addNewEmployee(new Developer(str[0], str[1], Integer.parseInt(str[2]), ContractType.valueOf(str[3]), DevTitle.valueOf(str[4]), Integer.parseInt(str[5])));
-			} 
+			str = rowLines.split(";");
+			try {
+				team.addNewEmployee(new EmployeeFactory().newEmployee(str));
+			} catch (CompanyException e) {
+				LOGGER.error("Не существующий тип Employee в файле");
+			}
+		}
+		
+
 	
 		}
 		

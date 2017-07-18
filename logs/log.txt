@@ -1,58 +1,143 @@
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=1
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=2
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=3
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=4
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=5
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=6
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.team.Team - ��������� �������, ��������� �� 6���. = 9.375
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - ���������� �� Salary
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 ��������     �������          190,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 �������      ��������        1000,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - ���������� �� ������� � �����
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 ��������     �������          190,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 �������      ��������        1000,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction - ������ � ����������(����.) �� ������ (>50 � <150)
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:55:57 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=1
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=2
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=3
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=4
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=5
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - �������� ����� ��������� � ID=6
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.team.Team - ��������� �������, ��������� �� 6���. = 9.375
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - ���������� �� Salary
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 ��������     �������          190,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 �������      ��������        1000,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - ���������� �� ������� � �����
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 ��������     �������          190,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 �������      ��������        1000,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction - ������ � ����������(����.) �� ������ (>50 � <150)
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 �������      ����             100,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 ��������     �����             60,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 ������       �������           50,00
-2017-07-17 08:56:05 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 ��������     ����              50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=1
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=2
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=3
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=4
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=5
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=6
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.team.Team - Стоимость команды, состоящей из 6чел. = 9.375
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Salary
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Иванов       Василий           50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Сонькина     Соня              50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Борис             60,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Антонов      Егор             100,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Васечкин     Василий          190,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Хороший      Менеджер        1000,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Фамилии и Имени
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Антонов      Егор             100,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Борис             60,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Васечкин     Василий          190,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Иванов       Василий           50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Сонькина     Соня              50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Хороший      Менеджер        1000,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction - Фильтр и сортировка(убыв.) по окладу (>50 и <150)
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Антонов      Егор             100,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Борис             60,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Иванов       Василий           50,00
+2017-07-18 20:02:11 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Сонькина     Соня              50,00
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=1
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=2
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=3
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=4
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=5
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=6
+2017-07-18 20:04:03 [main] INFO  com.krutova.itcompany.team.Team - Стоимость команды, состоящей из 6чел. = 9.375
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Salary
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Фамилии и Имени
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction - Фильтр и сортировка(убыв.) по окладу (>50 и <150)
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:04 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=1
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=2
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=3
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=4
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=5
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=6
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.team.Team - Стоимость команды, состоящей из 6чел. = 9.375
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Salary
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Фамилии и Имени
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction - Фильтр и сортировка(убыв.) по окладу (>50 и <150)
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:04:31 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=1
+2017-07-18 20:05:50 [main] ERROR com.krutova.itcompany.filemanager.FileParser - Не существующий тип объекта в файле
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=2
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=3
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=4
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=5
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.team.Team - Стоимость команды, состоящей из 5чел. = 8.75
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Salary
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Сонькина     Соня              50,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Васечкин     Борис             60,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Василий          190,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Хороший      Менеджер        1000,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Фамилии и Имени
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Васечкин     Борис             60,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Василий          190,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Сонькина     Соня              50,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Хороший      Менеджер        1000,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction - Фильтр и сортировка(убыв.) по окладу (>50 и <150)
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Васечкин     Борис             60,00
+2017-07-18 20:05:50 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Сонькина     Соня              50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=1
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=2
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=3
+2017-07-18 20:06:34 [main] ERROR com.krutova.itcompany.filemanager.FileParser - Не существующий тип объекта в файле
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=4
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=5
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Добавлен новый сотрудник с ID=6
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.team.Team - Стоимость команды, состоящей из 6чел. = 9.375
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Salary
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------------
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - Сортировка по Фамилии и Имени
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      4 Васечкин     Василий          190,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      6 Хороший      Менеджер        1000,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - --------------------------------------------
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction - Фильтр и сортировка(убыв.) по окладу (>50 и <150)
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      1 Антонов      Егор             100,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      3 Васечкин     Борис             60,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      2 Иванов       Василий           50,00
+2017-07-18 20:06:34 [main] INFO  com.krutova.itcompany.action.TeamAction -      5 Сонькина     Соня              50,00
