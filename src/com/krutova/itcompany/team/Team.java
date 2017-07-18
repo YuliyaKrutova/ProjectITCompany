@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import com.krutova.itcompany.action.StaffCalculation;
 import com.krutova.itcompany.staff.Employee;
 
-public class Team {
+public class Team { 
 
 	private static final Logger LOGGER  = LogManager.getLogger();
 	
@@ -22,11 +22,11 @@ public class Team {
 
 			amount+=StaffCalculation.costPerHour(employee);
 			++countEmployee;
-			LOGGER.info("Добавлен новый сотрудник с ID="+employee.getId());
-		}		
+			LOGGER.info("Р”РѕР±Р°РІР»РµРЅ РЅРѕРІС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє СЃ ID="+employee.getId());
+		}		 
 	}
 
-	public double getAmount() {
+	public double getAmount() { 
 		return amount;
 	}
 
@@ -44,7 +44,7 @@ public class Team {
 	}
 	
 	public void teamInfo() {
-		LOGGER.info("Стоимость команды, состоящей из "+countEmployee+"чел. = "+amount);
+		LOGGER.info("РЎС‚РѕРёРјРѕСЃС‚СЊ РєРѕРјР°РЅРґС‹, СЃРѕСЃС‚РѕСЏС‰РµР№ РёР· "+countEmployee+"С‡РµР». = "+amount);
 	}
 	
 	
