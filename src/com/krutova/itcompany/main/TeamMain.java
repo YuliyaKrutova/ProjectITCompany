@@ -20,7 +20,7 @@ public class TeamMain {
 		
 		Team team = new Team(); 
 		
-		Manager manager = new Manager("Менеджер", "Хороший", 1000, ContractType.FULLTIME,ManagerType.PM);
+		Manager manager = new Manager("РњРµРЅРµРґР¶РµСЂ", "РҐРѕСЂРѕС€РёР№", 1000, ContractType.FULLTIME,ManagerType.PM);
 
 		team.addNewEmployee(manager);
 
@@ -38,7 +38,7 @@ public class TeamMain {
 		ArrayList<Developer> subordList  =manager.listOfSubordinates(devList);
 		
 		System.out.println("-------------------");
-		System.out.println("Список субординатов менеджера '"+manager.getLastName()+" "+manager.getFirstName()+"'");
+		System.out.println("РЎРїРёСЃРѕРє СЃСѓР±РѕСЂРґРёРЅР°С‚РѕРІ РјРµРЅРµРґР¶РµСЂР° '"+manager.getLastName()+" "+manager.getFirstName()+"'");
 		subordList.stream().forEach((e)->System.out.println(e.formatString()));
 		System.out.println("-------------------");
 		
