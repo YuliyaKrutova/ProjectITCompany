@@ -27,6 +27,7 @@ public class Team {
 	}
 
 	public double getAmount() { 
+		teamInfo();
 		return amount;
 	}
 
@@ -44,7 +45,7 @@ public class Team {
 	}
 	
 	public void teamInfo() {
-		LOGGER.info("Стоимость команды, состоящей из "+countEmployee+"чел. = "+amount);
+		LOGGER.info("Стоимость команды, состоящей из "+countEmployee+"чел. = "+amount+"\u20ac");
 	}
 	
 	

@@ -12,7 +12,6 @@ public class CostTeamTest {
 	public void test() {
 		Team team = new Team();
 		FileParser.parseFileToTeam(team,"resources\\inputDataDeveloper.txt");
-		System.out.println(team.getAmount());
 		Assert.assertEquals(3.125, team.getAmount(),0.1);
 	}
 
