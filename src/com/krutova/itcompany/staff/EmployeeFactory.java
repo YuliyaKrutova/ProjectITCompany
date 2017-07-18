@@ -16,7 +16,7 @@ public class EmployeeFactory {
 		} else if (DataSourceType.MANAGER.name().equals(str[0])){
 			return new  Manager(str[1], str[2], Integer.parseInt(str[3]), ContractType.valueOf(str[4]),ManagerType.valueOf(str[5]));
 		} else{
-			throw new CompanyException();
+			throw new CompanyException("Не существующий тип Employee в файле1");
 		}
 	}
 
