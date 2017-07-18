@@ -9,11 +9,11 @@ import com.krutova.itcompany.exception.CompanyException;
 import com.krutova.itcompany.staff.EmployeeFactory;
 import com.krutova.itcompany.team.Team;
 
-public class FileParser {
+public class FileToTeamLoader {
 
 
 	private static final Logger LOGGER  = LogManager.getLogger();
-	public static void parseFileToTeam(Team team, String filePath) {
+	public static void loadFileToTeam(Team team, String filePath) {
 		
 
 		ArrayList<String> lines = null;

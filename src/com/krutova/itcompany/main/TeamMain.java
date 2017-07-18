@@ -3,7 +3,7 @@ package com.krutova.itcompany.main;
 import java.util.ArrayList;
 
 import com.krutova.itcompany.action.TeamAction;
-import com.krutova.itcompany.filemanager.FileParser;
+import com.krutova.itcompany.filemanager.FileToTeamLoader;
 import com.krutova.itcompany.staff.Developer;
 import com.krutova.itcompany.staff.Employee;
 import com.krutova.itcompany.team.Team;
@@ -19,10 +19,11 @@ public class TeamMain {
 		
 		Team team = new Team(); 
 
-		FileParser.parseFileToTeam(team, DATA_DEVELOPER);
-		FileParser.parseFileToTeam(team, DATA_MANAGER);
+		FileToTeamLoader.loadFileToTeam(team, DATA_DEVELOPER);
+		FileToTeamLoader.loadFileToTeam(team, DATA_MANAGER);
 
 		ArrayList<Employee> teamList  = team.getTeam();
+		
 		
 		ArrayList<Developer> devList = new ArrayList<Developer>();
 		for (Employee emp: teamList){
@@ -30,6 +31,7 @@ public class TeamMain {
 				devList.add((Developer) emp);
 			}
 		}
+		
 		
 		team.teamInfo();
 		
