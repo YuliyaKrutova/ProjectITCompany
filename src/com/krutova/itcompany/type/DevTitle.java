@@ -1,6 +1,6 @@
 package com.krutova.itcompany.type;
 
-public enum DevTitle {
+public enum DevTitle { 
 	JUNIORSE("Junior Software Engineer"),
 	SE("Software Engineer"),
 	SENIORSE("Senior Software Engineer"),
