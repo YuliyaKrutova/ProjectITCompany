@@ -15,8 +15,8 @@ public class EmployeeFactory {
 		switch (DataSourceType.valueOf(str[0])){
 		case DEVELOPER: return new Developer(str[1], str[2], Integer.parseInt(str[3]), ContractType.valueOf(str[4]), DevTitle.valueOf(str[5]), Integer.parseInt(str[6]));
 		case MANAGER: return new Manager(str[1], str[2], Integer.parseInt(str[3]), ContractType.valueOf(str[4]),ManagerType.valueOf(str[5]));
-		default: return null; //никогда сюда не попадет
-		}
+		default: throw new CompanyException("Не существующий тип Employee в файле"); //никогда сюда не попадет
+		} 
 		}
 		catch (IllegalArgumentException e){
 			throw new CompanyException("Не существующий тип Employee в файле1");
